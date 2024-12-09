@@ -1,0 +1,29 @@
+body {
+    background: url('../assets/Noise.png') repeat,
+    linear-gradient(
+        to left,
+        #3524004a 0%,  
+        rgba(0, 0, 0, 0) 50%    
+      );
+    background-size: cover, cover;
+    background-blend-mode: overlay;
+    overflow-x: hidden;
+}
+
+.sombra1 {
+
+    background: linear-gradient(
+        to left,
+        #6243004a 0%,  
+        rgba(0, 0, 0, 0) 50%    
+      );
+}
+
+.sombra2 {
+
+    background: linear-gradient(
+        to right,
+        #6243004a 0%,  
+        rgba(0, 0, 0, 0) 50%   
+      );
+}
